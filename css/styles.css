@@ -1,0 +1,111 @@
+/*Pseudocodigo root*/
+:root{
+    --colorNavegacion: #5dacbd;
+    --blanco: #fcfafa;
+    --principal: #222831;
+    --amarillo :  #f8da5b;
+  
+  }
+  
+  
+  
+  /*Globales*/
+  html {
+     font-size: 62.5%;
+      box-sizing: border-box;
+      background-color: var(--blanco);
+    }
+    *, *:before, *:after {
+      box-sizing: inherit;
+    }
+  
+    body{
+       font-size: 4rem;
+       text-align: center;
+      
+    
+    }
+  
+  
+    h1{
+      font-size: 3rem;
+    }
+  
+    h2{
+      font-size: 2rem;
+    }
+  
+    h3{
+      font-size: 1rem;
+    }
+
+    p{
+      font-size: 2.5rem;
+    }
+  
+    .logo{
+      display: flex;
+      text-align: center;
+    }
+  
+    .menu{
+      display: block;
+      text-align: center;
+      justify-content: space-between;
+      gap: 2rem;
+      font-size: 2rem;
+      text-decoration: none ;
+    }
+   
+  
+    .menu>a:hover{
+      background-color: var(--amarillo);
+      
+    }
+  
+  
+    /*clases*/
+    
+
+    /*titulo*/
+      .titulo{
+        display: flex;
+        flex-direction: column;;
+        background-color: var(--amarillo);
+        
+      }
+
+      .titulo>h1{
+        color: var(--blanco);
+        font-size: 4rem;
+        font-weight: bold;
+      }
+      
+      .titulo_letra{
+        color: var(--principal);
+      }
+
+
+
+
+    /*Principal*/
+
+    .contenedor{
+      display:grid;
+    }
+
+    
+    /* footer*/
+
+      .footer{
+        background-color: var(--amarillo);
+      }
+      .footer>p{
+        color: var(--principal);
+      }
+
+      
+
+      
+         
+    
